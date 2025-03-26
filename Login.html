@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <link rel="stylesheet" href="login.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Login page</title>
+  </head>
+  <body>
+    <div class="box">
+      <form action="login.php" method="post">
+        <h2 style="text-align: center">Log In</h2>
+        <!-- Centered heading -->
+        <div class="input">
+          <input
+            type="text"
+            name="username"
+            id="userName"
+            placeholder="Username"
+            pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.(gmail|com|net)$"
+            required
+          />
+        </div>
+        <div class="input">
+          <input
+            type="password"
+            name="password"
+            id="passWord"
+            placeholder="Password"
+            pattern=".{7,}"
+            required
+          />
+
+          <small> Password must be of length 7 or more</small>
+        </div>
+
+        <br />
+        <input type="submit" value="Login" class="submit-button" />
+        <!-- Added class for styling -->
+        <div class="links">
+          <a href="#">Forgot password?</a>
+          <a href="signup.html">Not a member? Sign up</a>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
+
+<!-- <label for="userName"></label>
+      <input
+        type="text"
+        name="username"
+        id="userName"
+        placeholder="Username"
+        pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.(gmail|com|net)$"
+        required
+      />
+      <br />
+      <label for="passWord"></label>
+      <input
+        type="password"
+        name="password"
+        id="passWord"
+        placeholder="Password"
+        pattern=".{7,}"
+        required
+      />
+      <small> Password must be of length 7 or more</small>
+      <br />
+
+      <small>forgot password?</small>
+      <br />
+      <input type="submit" value="Login" />
+
+      <hr />
+      <p>Not a member? <em>Sign in</em></p> -->

@@ -1,0 +1,179 @@
+* {
+    background-color: #324a34;
+}
+
+p, header a {
+    color: #dad2c1;
+}
+
+header a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #b5aa93;
+    text-decoration: none;
+    z-index: 5;
+    background-color: transparent;
+}
+
+#name {
+    font-size: 2rem;
+    font-family: "Courgette", "Poppins";
+    font-weight: bolder;
+    position: absolute;
+    top: 0.7rem;
+}
+
+.corner-text4 {
+    position: fixed;
+    top: 0.5rem;
+    right: 1.4rem;
+    background-color: #ffaf00;
+    color: black;
+    border: 0.625rem solid #ffaf00;
+    border-radius: 45%;
+}
+
+.corner-text2 {
+    position: fixed;
+    top: 1rem;
+    right: 11rem;
+}
+
+.corner-text3 {
+    position: fixed;
+    top: 1rem;
+    right: 24rem;
+}
+
+.corner-text1 {
+    position: fixed;
+    top: 1rem;
+    right: 28rem;
+}
+
+header h1 {
+    color: #dad2c1;
+    padding-top: 4.5rem;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    font-family: "Fraunces", Arial, Helvetica, sans-serif;
+    font-size: 23rem;
+    margin: 0.1em;
+    z-index: 3;
+}
+
+.transparent {
+    color: transparent;
+    -webkit-text-stroke: 0.13rem #ffaf00;
+    position: relative;
+    z-index: 1;
+}
+
+footer {
+    height: 50rem;
+    width: 100vw;
+    background-color: black;
+    position: relative;
+    bottom: 20rem;
+    z-index: 1;
+}
+
+#PageRectangle {
+    height: 1rem;
+    width: 100vw;
+    background-color: #ffaf00;
+}
+
+#intro p {
+    position: absolute;
+    z-index: 2;
+    bottom: -10rem;
+    padding: 3%;
+    background-color: transparent;
+    font-size: 2.5rem;
+    z-index: 7;
+}
+
+
+#para2 p {
+    position: absolute;
+    z-index: 2;
+    bottom: 5rem;
+    left: 93rem;
+    padding: 3%;
+    background-color: transparent;
+    font-size: 2.5rem;
+    z-index: 7;
+}
+img {
+    width: 29rem;
+    height: 51rem;
+    position: relative;
+    z-index: 2;
+    bottom: 108rem;
+    right: -10rem;
+    filter: blur(0.1rem);
+}
+
+
+a:hover {
+    background-color: #ffffff;
+    color: #ffaf00;
+}
+
+
+
+figcaption {
+    position: relative;
+    top: 20rem;
+}
+
+
+
+#socials a {
+    text-align: center;
+    position: absolute;
+    background-color: #ffaf00;
+    border:1rem solid wheat;
+    color: #324a34;
+    border-radius: 50%;
+    width: 3rem;
+    padding: 20rem;
+    font-size: 2rem;
+    left: 35rem;
+    top: 135rem;
+    z-index: 5;
+}
+
+#socials a:hover {
+    background-color: wheat;
+    color: #ffaf00;
+    border: 1rem solid #324a34;
+}
+
+
+#socials2 a {
+    text-align: center;
+    position: absolute;
+    background-color: #324a34;
+    border:1rem solid wheat;
+    color: wheat;
+    border-radius: 50%;
+    width: 3rem;
+    padding: 20rem;
+    font-size: 2rem;
+    right: 40rem;
+    top: 190rem;
+    z-index: 5;
+}
+
+#socials2 a:hover {
+    background-color: wheat;
+    color: #324a34;
+    border: 1rem solid #ffaf00;
+}
+

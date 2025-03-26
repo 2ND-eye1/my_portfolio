@@ -1,0 +1,248 @@
+* {
+    background-color: #324a34;
+    text-align: center;
+}
+
+
+
+p, header a {
+    color: #dad2c1;
+}
+
+hr {
+    border: 0.1rem solid #d8b361;
+    width: 90%;
+}
+
+header a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #b5aa93;
+    text-decoration: none;
+    z-index: 5;
+    background-color: transparent;    
+    /* this takes off the underlines off the <a> elements */
+}
+
+#nameHeading {
+    font-family: "Lora", serif;
+}
+
+#name {
+    font-size: 2rem;
+    font-family: "Courgette", "Poppins";
+    font-weight: bolder;
+    position: fixed;
+    top: 0.7rem;
+    left: 0vw;
+
+}
+
+.corner-text4 {
+    position: fixed;
+    top: 0.5rem;
+    right: 1.4rem;
+    background-color: #ffaf00;
+    color: black;
+    border: 10px  solid #ffaf00 ;
+    border-radius: 45%;
+}
+
+.corner-text2 {
+    position: fixed;
+    top: 1rem;
+    right: 11rem;
+}
+
+.corner-text3 {
+    position: fixed;
+    top: 1rem;
+    right: 24rem;
+}
+
+.corner-text1 {
+    position: fixed;
+    top: 1rem;
+    right: 28rem;
+}
+
+
+header h1 {
+    color: #dad2c1;
+    padding-top: 4.5rem;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    font-family: "Fraunces", Arial, Helvetica, sans-serif;
+    font-size: 13rem;
+    margin: 0.1em;
+    z-index: 3;
+    
+}
+
+/* this is the code in order to make the text transparent but the issue is that it does not work in all browsers */
+.transparent {
+    color: transparent;
+    -webkit-text-stroke: 0.13rem #ffaf00;
+    position: relative;
+    z-index: 1;
+}
+
+#headingTwo {
+    color: #ddd4c0;
+    position: absolute;
+    text-align: center;
+    left: 20rem;
+    z-index: 3;
+}
+
+#headingOne {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    
+}
+
+
+article p {
+    z-index: 2;
+    bottom: 0.2rem;
+    background-color: transparent;
+    font-size: 1.5rem;
+    padding: 3rem;
+    
+}
+
+
+a {
+    color: rgb(146, 65, 221);
+}
+
+footer{
+    position: absolute;
+    top: 170rem;
+    color: black;
+    background-color: transparent;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: #dad2c1;
+}
+
+.container2 {
+    position: relative;;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+#Technical-skills h2, #education {
+    font-size: 8rem;
+}
+
+#tb1, #education-table {
+    font-size: 5rem;
+    text-align: center;
+    position: relative;
+    left: 5rem;
+    padding: 1rem;
+}
+
+th, tr {
+    text-align: center;
+    padding: 0.3rem;
+}
+
+td {
+    padding: 0.3rem;
+    text-align: center;
+    background-color: #dad2c1;
+    border: #dad2c1;
+    border-radius: 2rem;
+    gap: 0.7rem;
+    font-size: 1.5rem;
+}
+
+
+.lang {
+    padding: 0.3rem;
+    text-align: center;
+    background-color: #000000;
+    border: #000000;
+    border-radius: 2rem;
+    gap: 0.7rem;
+    font-size: 1.5rem;
+    color: white;
+}
+
+
+.circle {
+    position: relative;
+    background-color: transparent;
+    width: 100vw;
+    border: 2rem solid #dacbab;
+}
+
+
+/* Here i am handling the blog and ensuring tha the blog is clickable,  */
+.Blog {
+    background-color: #dad2c1;
+    border: #ffaf00;
+    padding: 3rem;
+    border-radius: 2rem;
+    position: absolute;
+    color: black;
+    left: 50rem;
+    width: 30rem;
+    height: 30rem;
+    top: 135rem;
+    padding-bottom: 0.3rem;
+}
+.Blog h2 {
+    background-color: #dad2c1;
+    font-size: 200;
+    border: 1rem dotted #ffaf00;
+
+}
+
+.Blog h3 {
+    background-color: #dad2c1;
+    font-size: 3em;
+}
+
+a {
+    background-color: transparent;
+    text-decoration: none;
+}
+
+/* this is the psuedo-element  */
+a:hover {
+    background-color: #ffffff;
+    color: #ffaf00;
+}
+
+
+
+a:hover:after {
+    width: 0;
+}
+/* scaling the emoji for the blog  */
+
+#emoji {
+    font-size: 15rem;
+    position: absolute;
+    top: 1rem;
+}
+
+
+
+
+

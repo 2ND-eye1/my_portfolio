@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Lora", Arial, Helvetica, sans-serif;
+}
+
+/* 
+h1 {
+    background-color: #324a34;
+    border: 3rem solid #faca62;
+    -webkit-text-stroke: 0.13rem #ffaf00;
+    padding: 3rem;
+    color: #ffaf00;
+} */
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #324a34;
+}
+
+
+.box {
+    position: relative;
+    align-items: center;
+    width: 40rem;
+    height: 50rem;
+    background: #324a34;
+    border-radius: 3rem 0.3125rem ;
+    overflow: hidden;
+
+}
+
+
+.box::before{
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 40rem;
+    height: 50rem;
+    background: linear-gradient(60deg,transparent,#ffaf00,#ffaf00);
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite;
+
+}
+
+
+.box::after {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 40rem;
+    height: 50rem;
+    background: linear-gradient(60deg,transparent, white, white);
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite;
+    animation-delay: -3s;
+}
+
+
+@keyframes animate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+form {
+    position: absolute;
+    inset: 1px;
+    border-radius: 4rem 0.3125rem; 
+    background: #1b2a1c;
+    z-index: 10;
+    padding: 6rem ;
+    display: flex;
+    flex-direction: column;
+}
+
+
+h2 {
+    font-size: 5rem;
+    color: #ffaf00;
+}
+
+
+.input {
+    position: relative;
+    width: 300px;
+    margin-top: 35px;
+
+}
+
+
+
+.input input {
+    position: relative;
+    width: 100%;
+    padding: 20px 10px 10px;
+    background: #f3deb1;
+    text-align: center;
+    border-radius: 0.5rem;
+    border: none;
+    outline: none;
+    font-size: 2rem;
+    z-index: 10;
+
+}
+
+.submit-button {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #f3deb1;
+    color: #324a34;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #ffaf00;
+    color: white;
+    border: 0.2rem solid wheat;
+}
+
+
+.input label {
+    color: #000;
+}
+
+small {
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+a:hover {
+    color: #ffaf00;
+}

@@ -1,0 +1,116 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 5rem;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 54rem; /* 8.5in converted to rem */
+    margin: 0 auto;
+    padding: 6rem; /* 1in converted to rem */
+    background-color: #fff;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+h1 {
+    font-size: 1.5em;
+    margin-bottom: 3rem;
+}
+
+h2 {
+    font-size: 1.125em;
+    margin-bottom: 1.5rem;
+}
+
+h3 {
+    font-size: 0.875em;
+    margin-bottom: 1.5rem;
+}
+
+p {
+    font-size: 0.75em;
+    line-height: 1.5;
+    margin: 0 0 3rem 0;
+}
+
+ul {
+    list-style-type: disc;
+    margin: 0 0 3rem 3rem;
+}
+
+li {
+    margin-bottom: 1.5rem;
+}
+
+.header, .footer {
+    text-align: center;
+    font-size: 0.625em;
+    color: #666;
+}
+
+.header {
+    margin-bottom: 6rem;
+}
+
+.footer {
+    margin-top: 6rem;
+    border-top: 0.0625rem solid #ccc;
+    padding-top: 3rem;
+}
+
+.section {
+    margin-bottom: 6rem;
+}
+
+.section-title {
+    font-size: 1em;
+    margin-bottom: 3rem;
+    border-bottom: 0.0625rem solid #ccc;
+    padding-bottom: 1.5rem;
+}
+
+.contact-info {
+    font-size: 0.75em;
+    margin-bottom: 6rem;
+}
+
+.contact-info p {
+    margin: 0;
+}
+
+.experience, .education {
+    margin-bottom: 6rem;
+}
+
+.experience h3, .education h3 {
+    font-size: 0.875em;
+    margin-bottom: 1.5rem;
+}
+
+.experience p, .education p {
+    font-size: 0.75em;
+    margin: 0 0 3rem 0;
+}
+
+.back-button {
+    display: inline-block;
+    margin-bottom: 6rem;
+    padding: 1.5rem 3rem;
+    font-size: 0.75em;
+    color: #fff;
+    background-color: #007bff;
+    text-decoration: none;
+    border-radius: 0.25rem;
+    transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: #2a598b;
+}

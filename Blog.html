@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="blog.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Courgette&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Blog Post</title>
+  </head>
+  <body>
+    <header>
+      <!-- navigation bar at the top -->
+      <nav>
+        <p>
+          <a id="name" href="#">Ndeye Fatou Diop</a>
+          <a class="corner-text1" href="./AboutMe.html">About me</a>
+          <a class="corner-text2" href="./Work.html">Work and Experience</a>
+          <a class="corner-text3" href="./MyCV.html" target="_blank">CV</a>
+          <a class="corner-text4" href="mailto: n.fatoudtiop05@gmail.com"
+            >Get in touch!</a
+          >
+        </p>
+      </nav>
+    </header>
+    <div class="blog-container">
+      <!-- This is the blog structure -->
+      <form action="submit_blog.php" method="post">
+        <div class="input">
+          <label for="title">Blog Post Title</label>
+          <textarea
+            id="title"
+            name="title"
+            rows="1"
+            placeholder="Enter your blog post title here..."
+            required
+          ></textarea>
+        </div>
+        <div class="input">
+          <label for="content">Blog Post Content</label>
+          <textarea
+            id="content"
+            name="content"
+            rows="10"
+            placeholder="Enter your blog post content here..."
+            required
+          ></textarea>
+        </div>
+        <div class="buttons">
+          <input type="submit" value="Submit" class="submit-button" />
+          <input type="reset" value="Delete" class="delete-button" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
